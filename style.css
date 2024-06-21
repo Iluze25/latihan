@@ -6,6 +6,8 @@ html, body {
 body {
     background-color: darksalmon;
     text-align: center;
+    background-image: url(image1.jpg);
+    color: white;
 }
 
 #frameLogin {
@@ -15,7 +17,9 @@ body {
     margin: 2vw;
     width:259px;
     height: 350px;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.247);
+    backdrop-filter: blur(2px);
+
 }
 #headingLogin {
     position: relative;
