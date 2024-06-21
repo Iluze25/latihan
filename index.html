@@ -1,55 +1,23 @@
-html, body {
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
-body {
-
-    background-color: darksalmon;
-    text-align: center;
-    
-    color: white;
-}
-#background {
-    display: flex;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1000;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-}
-
-#frameLogin {
-    border-radius: 10px;
-    display: inline-block;
-    position: relative;
-    margin: 2vw;
-    width:259px;
-    height: 350px;
-    background-color: rgba(245, 245, 220, 0.247);
-    backdrop-filter: blur(2px);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    z-index: 1;
-}
-#headingLogin {
-    position: relative;
-    text-align: center;
-}
-.input {
-    display: block;
-    position: relative;
-    text-align: center;
-    
-}
-.text {
-    margin: 5px;
-    width: 230px;
-    height: 25px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Ujian Online-Semester 1</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+      <div id="background">
+        <img src="image1.jpg" alt="">
+      </div>
+      <div id="frameLogin">
+        <h1 id="headingLogin">Login</h1>
+        <div class="input">
+          <input type="username" class="text usernameLogin" placeholder="Username">
+          <input type="password" class="text passwordLogin" placeholder="Password">
+        </div> 
+        <button id="loginButton"></button>
+      </div>
+</body>
+</html>
