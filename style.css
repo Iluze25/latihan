@@ -4,10 +4,17 @@ html, body {
     margin: 0;
 }
 body {
+
     background-color: darksalmon;
     text-align: center;
-    background-image: url(image1.jpg);
+    
     color: white;
+}
+#background {
+    display: flex;
+    position: fixed;
+    z-index: -1000;
+
 }
 
 #frameLogin {
@@ -19,7 +26,11 @@ body {
     height: 350px;
     background-color: rgba(245, 245, 220, 0.247);
     backdrop-filter: blur(2px);
-
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 1;
 }
 #headingLogin {
     position: relative;
