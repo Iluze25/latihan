@@ -13,7 +13,7 @@ body {
     display: inline-block;
     position: relative;
     margin: 2vw;
-    width: 680px;
+    width: 150px;
     height: 350px;
     background-color: beige;
 }
@@ -26,4 +26,7 @@ body {
     position: relative;
     text-align: center;
     
+}
+.text {
+    width: 130px;
 }
