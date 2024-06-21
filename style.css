@@ -24,6 +24,7 @@ body {
 }
 
 #frameLogin {
+    top: 120px;
     border-radius: 10px;
     display: inline-block;
     position: relative;
