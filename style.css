@@ -1,0 +1,29 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    background-color: darksalmon;
+    text-align: center;
+}
+
+#frameLogin {
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    margin: 2vw;
+    width: 400px;
+    height: 350px;
+    background-color: beige;
+}
+#headingLogin {
+    position: relative;
+    text-align: center;
+}
+.input {
+    display: block;
+    position: relative;
+    text-align: center;
+    
+}
