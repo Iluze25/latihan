@@ -1,5 +1,5 @@
 function materi() {
-    window.location.href = "materi/materi.html";
+    window.location.href = "Web%20Ujian%20online%20-Semester%201/materi/materi.html";
 }
 
 function loginValue() {
