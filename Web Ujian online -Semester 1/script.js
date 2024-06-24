@@ -1,5 +1,5 @@
 function materi() {
-    window.location.href = "/materi/materi.html";
+    window.location.href = "../materi/materi.html";
 }
 
 function loginValue() {
