@@ -1,0 +1,16 @@
+LOGIN
+-->> Membuat terlebih dahulu file HTML, jangan lupa untuk memberi nama "index.html"
+-->> Lalu title nya kasih nama "Web Ujian Online -Semester 1"
+
+-->> Membuat Tag <Div> tulis ID nya, dengan nama "LoginBackground"
+    >> Didalam div tersebut, tambahkan tag <video> beserta source
+      > Didalam Tag Video kasih Id "BackgroundVideo"
+    >> Dan tambahkan tag Audio kasih Id "LoginPenjelasan"
+
+-->> Membuat Tag <Div> baru, tambahkan Id "FrameLogin"
+    >> Buat dua input biasa, untuk input nama username satu, dan password satu
+    >> Buat Button, berikan Id "LoginButton"
+
+
+    Itu saja untuk Index.html nya
+    testing bor
