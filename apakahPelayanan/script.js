@@ -14,5 +14,5 @@ function ASD() {
 }
 
 function Masuk() {
-    window.location.href = "apakahPelayanan/masuk.html"
+    window.location.href = "masuk.html"
 }
